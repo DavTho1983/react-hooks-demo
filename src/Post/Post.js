@@ -1,14 +1,12 @@
-import React from "react";
+import React from 'react'
 
-export default function Post({ title, content, author }) {
+export default function Post ({ title, content, author }) {
   return (
     <div>
       <h3>{title}</h3>
       <div>{content}</div>
       <br />
-      <i>
-        Written by <b>{author}</b>
-      </i>
+      <i>Written by <b>{author}</b></i>
     </div>
-  );
+  )
 }
